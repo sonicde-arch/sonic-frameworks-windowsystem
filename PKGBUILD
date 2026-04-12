@@ -1,8 +1,8 @@
 # Maintainer: artist for Sonic-DE
 
 pkgname=sonic-frameworks-windowsystem
-pkgver=6.24.0.1
-pkgrel=2
+pkgver=6.25.0
+pkgrel=1
 pkgdesc='Access to the windowing system for Sonic-DE'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-frameworks-windowsystem'
@@ -35,5 +35,4 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
 }
 
-sha256sums=('e8474f23905c38e45e93ecbf2b99f1b88c6a48ea6531fcff1c5edb3703f212fb')
-
+sha256sums=('1e721c6e45ac3aed83b105397b20fbdce30954e0ef6fd390b742e1548ec0f8d0')
