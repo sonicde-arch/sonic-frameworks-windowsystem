@@ -1,6 +1,6 @@
 pkgbase = sonic-frameworks-windowsystem
 	pkgdesc = Access to the windowing system for Sonic-DE
-	pkgver = 6.25.0
+	pkgver = 6.26.0
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-frameworks-windowsystem
 	arch = x86_64
@@ -22,7 +22,7 @@ pkgbase = sonic-frameworks-windowsystem
 	provides = kwindowsystem
 	conflicts = kwindowsystem
 	replaces = kwindowsystem
-	source = sonic-frameworks-windowsystem-6.25.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-windowsystem/archive/refs/tags/6.25.0.tar.gz
-	sha256sums = 1e721c6e45ac3aed83b105397b20fbdce30954e0ef6fd390b742e1548ec0f8d0
+	source = sonic-frameworks-windowsystem-6.26.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-windowsystem/archive/refs/tags/6.26.0.tar.gz
+	sha256sums = 58a768b5da6916de9e13d02dae4eaa8aff99317b095a9b18306d0f3f162f47ad
 
 pkgname = sonic-frameworks-windowsystem
