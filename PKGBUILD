@@ -19,9 +19,9 @@ makedepends=(doxygen
              qt6-declarative
              qt6-tools)
 optdepends=('qt6-declarative: QML bindings')
-conflicts=('kwindowsystem')
-provides=('kwindowsystem')
-replaces=('kwindowsystem')
+conflicts=(kwindowsystem)
+provides=(kwindowsystem)
+replaces=(kwindowsystem)
 groups=(sonicde-frameworks)
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/$pkgver.tar.gz")
 
